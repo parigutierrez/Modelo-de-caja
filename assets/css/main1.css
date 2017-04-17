@@ -99,7 +99,7 @@ header {
 .modal:target {
     display: block;
     position: fixed;
-    background: rgba(19, 242, 212, 0.7);
+    background: rgba(241, 150, 123, 0.7);
     top: 0;
     left: 0;
     width: 100%;
