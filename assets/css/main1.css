@@ -1,0 +1,94 @@
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.link {
+  font-weight: 700;
+  padding: 21px;
+  display: inline-block;
+}
+
+.logo {
+  float: right;
+}
+
+header {
+  position: fixed;
+  background: white;
+  width: 100%;
+  top: 0;
+}
+
+.menu {
+  padding: 14px 70px;
+  overflow: auto;
+}
+#home {
+  background-image: url(../img/bg-home.jpg); /*Imagen de portada*/
+  background-position: center; /*Posicionar imagen al centro*/
+  background-repeat: no-repeat;/*No repetir imagen de fondo*/
+  background-size: cover;/*cubre todo el tamaño del contenedor*/
+  height: 554px; /*Altura del home*/
+  text-align: center;
+  margin-top: 80px; /*Margen superior*/
+}
+
+#home .container {
+  color: white; /*Color de texto Blanco*/
+  padding: 70px; /*Relleno de 70 px en todos los lados*/
+}
+
+.text-home {
+  font-size: 21px; /*Tamaño de tipografía*/
+}
+
+.btn-home {
+  background: #2ECC71; /*Color de fondo*/
+  color: #fff; /*Color de texto*/
+  padding: 11px 20px; /*Relleno del boton 11px (top y bottom) y 20px (left y right)*/
+  border-radius: 1px; /*Redondear borde 1px*/
+  font-weight: 500;
+  text-transform: uppercase;/*Convierte texto a mayusculas*/
+  margin-top: 63px; /*Margen superior*/
+  display:inline-block;
+  font-size: 14px;
+}
+
+#services{
+  background-color: #F17C72;
+  text-align: center;
+  color: #fff;
+  padding: 70px 7px;
+}
+.box-services{
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+}
+.text-services{
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
+#lapiz{
+    border-radius: 50%;
+}
+#work{
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.box-work{
+  text-align: center;
+  padding: 70px 7px;
+  display: inline-block;
+  width: 30%;
+  margin-top: 63px;
+}
+#copyright{
+  text-align: center;
+  color: white;
+  background: black;
+  letter-spacing: 2px;
+  margin: 10px;
+}
